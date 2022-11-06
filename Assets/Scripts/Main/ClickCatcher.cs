@@ -138,8 +138,10 @@ public class ClickCatcher : MonoBehaviour
         if (Input.GetMouseButton(0) && !badStart)
         {
             actual = lines[color].Peek();
-            actual.positionCount++;
-            AddPoint(actual);
+            if((actual.GetPosition(actual.positionCount -1)-MouseToWorld()).sqrMagnitude > Mathf.Epsilon){
+                actual.positionCount++;
+                AddPoint(actual);
+            }
         }
         if (Input.GetMouseButtonUp(0) && !badStart)
         {
