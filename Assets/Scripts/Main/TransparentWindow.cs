@@ -67,7 +67,7 @@ public class TransparentWindow
     {
         if (clickthrough)
         {
-            Application.targetFrameRate = 5;
+            //Application.targetFrameRate = 5;
             SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
         }
         else
