@@ -72,7 +72,7 @@ public class TransparentWindow
         }
         else
         {
-            Application.targetFrameRate = 30;
+            //Application.targetFrameRate = 30;
             SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED);
         }
     }
