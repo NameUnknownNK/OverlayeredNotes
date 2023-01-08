@@ -6,4 +6,3 @@ Tool to draw notes over everything.
 
 ### Warnings
 * Only works in Windows OS
-* When the edit mode is off, the simplified menu arrow buttons will not work to close any opened section. This is due to the optimizations made to consume less. 
