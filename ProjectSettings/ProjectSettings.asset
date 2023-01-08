@@ -84,7 +84,7 @@ PlayerSettings:
   submitAnalytics: 1
   usePlayerLog: 0
   bakeCollisionMeshes: 0
-  forceSingleInstance: 0
+  forceSingleInstance: 1
   useFlipModelSwapchain: 0
   resizableWindow: 0
   useMacAppStoreValidation: 0
